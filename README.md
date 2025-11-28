@@ -3,6 +3,7 @@
 This project aims to build a machine learning system that predicts whether an e-commerce product will be delivered on time or delayed.
 The dataset belongs to a global electronics-based e-commerce company and contains customer, product, and shipment-related details.
 
+
 **The project includes:**
 Data loading & cleaning
 Exploratory Data Analysis (EDA)
