@@ -62,7 +62,7 @@ Discounts above 10% were linked to better delivery performance.
 Encoding categorical variables using LabelEncoder
 Scaling numerical features using StandardScaler
 Splitting dataset into train-test (80–20)
-#X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+# X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 **5. Model Building**
 **Trained four supervised ML models:**
@@ -71,9 +71,9 @@ KNN Classifier
 Decision Tree Classifier
 Random Forest Classifier
 Each model trained using:
-#model.fit(X_train, y_train)
-#y_pred = model.predict(X_test)
-#accuracy_score(y_test, y_pred)
+# model.fit(X_train, y_train)
+# y_pred = model.predict(X_test)
+# accuracy_score(y_test, y_pred)
 
 
 **Model Accuracy Comparison**
